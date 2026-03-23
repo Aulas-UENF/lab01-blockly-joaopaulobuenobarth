@@ -4,8 +4,8 @@
 
 Bem-vindo(a) à sua atividade prática de Lógica Computacional! Siga os passos abaixo para completar o desafio.
 
-**Nome do Aluno:** [Preencha seu nome aqui]
-**Matrícula:** [Preencha sua matrícula]
+**Nome do Aluno:** João Paulo Bueno Barth
+**Matrícula:** [20261100111
 ---
 
 ## 🎯 Objetivo
@@ -46,13 +46,17 @@ Olhando para os blocos que você usou para resolver o jogo no nível 10, imagine
 
 ## 3. Estratégia Utilizada
 *Explique com suas palavras como você resolveu o problema. Qual foi a lógica?*
-> Escreva aqui... Exemplo: Percebi que o padrão se repetia 3 vezes, então criei um bloco de função para desenhar a ponta da estrela e usei um loop...
+> Escreva aqui... 
+Minha linha de raciocínio consistiu em decompor a cena em elementos, utilizando um loop de repetição tripla para desenhar as três estrelas, onde cada uma foi construída através de um sub-loop de cinco interações com giros de 144 graus para fechar a geometria de cinco pontas. Para criar a lua crescente, fiz uma estratégia de sobreposição: primeiro desenhei um círculo completo na cor branca através de um loop de 360 graus e, em logo apos, desloquei a tartaruga levemente para repetir o mesmo movimento com a cor preta, "apagando" o excesso e moldando a curvatura da meia lua.
 
 ## 4. Desafio:
-**A)** Escreva aqui...
+**A)** Escreva aqui... 
+O loop principal para desenhar um hexágono precisaria de 6 repetições, e o ângulo de giro da tartaruga a cada linha seria de 60°.
   
 **B)** Escreva aqui...
-  
+  Para que os 4 hexágonos fiquem distribuídos igualmente em um círculo completo (360°), o ângulo de giro entre o término de um e o início do próximo deve ser de 90°.
+
 **C)** Escreva aqui...
+A lógica utilizada baseia-se na regra de que a soma dos ângulos externos de qualquer polígono convexo é sempre 360°. Logo 360/6 (6 lado) = 60°. Para a distribuição circular dos 4 objetos, apliquei o mesmo princípio: dividi o círculo completo 360° pela quantidade de figuras desejadas 4, resultando em intervalos exatos de 90° entre elas.
 
 ---
